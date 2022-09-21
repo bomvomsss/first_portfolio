@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브웨이</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="img/subway_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="sideMenu">
+    <div class="sideWrap">
+        <div class="sideInner">
+            <div class="sideUtil">
+                <div class="utill">
+                    <a class="logo" href="javascript:;"><span class="blind">SUBWAY</span></a>
+                    <a class="setting" href="/setting"><span class="blind">설정</span></a>
+                    <button class="mClose"><span class="blind">사이드메뉴 닫기</span></a>
+                </div>
+                <div class="signout">
+                    <p class="info">로그인 해주세요.<br/>아직 회원이 아니신가요?</p>
+                    <div class="btns">
+                        <a class="btn btn_signin" href="javascript:;"><span>로그인</span></a>
+                        <a class="btn btn_join" href="javasctipt:;"><span>회원가입</span></a>
+                    </div>
+                </div><!--signout-->
+            </div><!--sideutil-->
+            <div class="sideQuick">
+                <ul>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_01_fast.png" /></i>
+                            <span>FAST-SUB</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_02_home.png" /></i>
+                            <span>HOME-SUB</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_03_group.png" /></i>
+                            <span>단체주문</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_04_subcard.png" /></i>
+                            <span>써브카드</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_06_coupon.png" /></i>
+                            <span>쿠폰</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bt_menu" href="javascript:;">
+                            <i class="icon"><img alt="icon" src="img/quick_05_gift.png" /></i>
+                            <span>e-Gift</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--sideQuick-->
+            <nav id="gnb">
+                <ul>
+                    <li>
+                        <a class="dp1" href="javascript:;">
+                        <span class="icon"><img alt="menu" src="img/icon_app_gnb_menu.png"></span>메뉴소개</a>
+                        <ul class="dp2">
+                            <li><a href="javascript:;">샌드위치</a></li>
+                            <li><a href="javascript:;">랩ㆍ기타</a></li>
+                            <li><a href="javascript:;">샐러드</a></li>
+                            <li><a href="javascript:;">아침메뉴</a></li>
+                            <li><a href="javascript:;">스마일 썹</a></li>
+                            <li><a href="javascript:;">단체메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dp1" href="javascript:;"><span class="icon"><img alt="" src="img/icon_app_gnb_howto.png"></span>이용방법</a>
+                        <ul class="dp2">
+                            <li><a href="javascript:;">써브웨이 이용방법</a></li>
+                            <li><a href="javascript:;">단체메뉴 이용방법</a></li>
+                            <li><a href="javascript:;">신선한 재료 소개</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dp1" href="javascript:;"><span class="icon"><img alt="" src="img/icon_app_gnb_news.png"></span>새소식</a>
+                        <ul class="dp2">
+                            <li><a href="/eventList">이벤트ㆍ프로모션</a></li>
+                            <li><a href="/newsList">뉴스ㆍ공지사항</a></li>
+                            <li><a href="/tvCommercial">광고영상</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dp1" href="javascript:;"><span class="icon"><img alt="" src="img/icon_app_gnb_subway.png" /></span>써브웨이</a>
+                        <ul class="dp2">
+                            <li><a href="javascript:;">써브웨이 역사</a></li>
+                            <li><a href="javascript:;">써브웨이 약속</a></li>
+                            <li><a href="javascript:;">매장찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dp1" href="javascript:;"><span class="icon"><img alt="" src="img/icon_app_gnb_store.png" /></span>가맹점</a>
+                        <ul class="dp2">
+                            <li><a href="javascript:;">써브웨이 프랜차이즈</a></li>
+                            <li><a href="javascript:;">가맹관련 FAQ</a></li>
+                            <li><a href="javascript:;">지사안내</a></li>
+                            <li><a href="javascript:;">사업설명회(대표번호 02-797-5036)</a></li>
+                            <li><a href="javascript:;">임대문의</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dp1" href="javascript:;)"><span class="icon"><img alt="" src="img/icon_app_gnb_customer.png" /></span>고객센터</a>
+                        <ul class="dp2">
+                            <li><a href="javascript:;">FAQ</a></li>
+                            <li><a href="javascript:;">1:1문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div><!--sideInner-->
+    </div>    
+    </div>
+    <div class="allWrap"></div>
+    <header>
+        <button class="m_btn">모바일 메뉴</button>
+        <h1><a href="index.html">서브웨이 로고</a></h1>
+    </header>
+    <main>
+        <div class="visual">
+               <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="img/1.jpg" alt="1"></div>
+                <div class="swiper-slide">
+                    <img src="img/2.jpg" alt="2"></div>
+                <div class="swiper-slide">
+                    <img src="img/3.jpg" alt="3"></div>
+                <div class="swiper-slide">
+                    <img src="img/4.jpg" alt="4"></div>
+                <div class="swiper-slide">
+                    <img src="img/5.jpg" alt="5"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- <button class="btn_pause">재생/정지</button> -->
+            
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+        <div class="order">
+            <ul class="or_list">
+                <li>
+                    <a href="#">
+                        <h2>FAST-SUB</h2>
+                        <h3>매장 선주문</h3>
+                        <img src="img/img_fastsub.png" alt="매장선주문">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h2>HOME-SUB</h2>
+                        <h3>배달주문</h3>
+                        <img src="img/img_homesub.png" alt="배달주문">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <ul class="f_util">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">Subway Listens</a></li>
+            <li><a href="#">PC버전</a></li>
+        </ul>
+        <ul class="sns">
+            <li><a href="#">인스타그램</a></li>
+            <li><a href="#">페이스북</a></li>
+        </ul>
+        <address>
+            서울시 서초구 강남대로 535 프린스빌딩 15층<br>
+            대표 : 안명선 | 전화 : <a href="tel:02-797-5036">02-797-5036</a><br>
+            사업자등록번호 : 101-84-04143
+        </address>
+        <p>
+            SUBWAY® is a Registered Trademark of Subway IP LLC. © 2021 Subway IP LLC. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
