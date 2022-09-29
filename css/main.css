@@ -123,9 +123,9 @@ body{
     animation: scr 1s ease infinite alternate;
     text-align: center;
     position: absolute;
-    left: 50%; bottom: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: -21.8rem;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
 }
 @keyframes scr{
     0%{
